@@ -1,0 +1,90 @@
+@import '../../vars';
+
+.main {
+  max-width: 260px;
+  width: 100%;
+}
+
+.logoBody {
+  padding-top: 5px;
+  margin-bottom: 10px;
+  padding-left: 7px;
+
+  a {
+    display: inline-block;
+    transition: background-color .2s ease;
+    border-radius: 50%;
+
+    &:hover {
+      background-color: $greyHover;
+    }
+  }
+
+  svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+  }
+}
+
+.twitterLogo {
+  color: $mainColor;
+}
+
+.list {
+  margin-bottom: 17px;
+}
+
+.item {
+  a {
+    display: flex;
+    width: 100%;
+
+    &:hover > div {
+      background-color: $greyHover;
+    }
+
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    padding: 17px;
+    max-width: 100%;
+    border-radius: 27px;
+    transition: background-color .2s ease;
+
+    &:hover {
+      background-color: $greyHover;
+    }
+  }
+
+  span {
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  svg {
+    margin-right: 12px;
+  }
+}
+
+.active {
+
+  span {
+    font-weight: 600;
+  }
+
+  svg {
+    color: $mainColor
+  }
+}
+
+.btn {
+  width: 76%;
+  min-width: 52px;
+  min-height: 52px;
+  font-size: 17px;
+  margin-bottom: 20px;
+}

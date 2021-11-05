@@ -1,0 +1,15 @@
+@import '../../vars';
+
+.titleMain {
+  position: sticky;
+  top: -2px;
+  background-color: $mainWhite;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  height: 53px;
+  padding-left: 16px;
+  padding-right: 16px;
+}

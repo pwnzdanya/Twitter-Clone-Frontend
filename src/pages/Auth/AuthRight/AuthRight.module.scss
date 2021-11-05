@@ -1,0 +1,90 @@
+.right {
+  min-width: 45vw;
+  padding: 16px;
+
+  .rightWrapper {
+    min-width: 437px;
+    max-width: 760px;
+    width: 100%;
+    padding: 40px 20px 20px;
+  }
+}
+
+.logoBody {
+  margin-bottom: 50px;
+}
+
+.mainTitle, .subTitle {
+  display: block;
+  font-weight: 700;
+}
+
+.mainTitle {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.subTitle {
+  font-size: 31px;
+  margin-bottom: 30px;
+}
+
+.sign {
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    max-width: 380px;
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 8px;
+    border: 1px solid rgb(207, 217, 222);
+    border-radius: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color .2s ease;
+
+    &:hover {
+      background-color: rgb(220, 227, 231);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit
+  }
+}
+
+.agree {
+  max-width: 380px;
+  font-size: 13px;
+  color: rgb(83, 100, 113);
+}
+
+.signIn {
+
+  button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+    font-size: 15px;
+    margin-left: 3px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(29, 155, 240);
+  border-bottom: 1px solid transparent;
+  transition: border-bottom-color .1s ease;
+
+  &:hover {
+    border-bottom-color: rgb(29, 155, 240);
+  }
+}
+

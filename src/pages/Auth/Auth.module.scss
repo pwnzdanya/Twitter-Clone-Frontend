@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  min-height: 100vh;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: rgb(15, 20, 25);
+  font-family: 'Roboto Slab', serif;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 55%;
+  background-size: cover;
+
+  .mainLogo {
+    max-width: 350px;
+    width: 100%;
+
+    svg {
+      fill: white;
+    }
+  }
+}
+

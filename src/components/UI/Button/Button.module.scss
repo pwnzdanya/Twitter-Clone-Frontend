@@ -1,0 +1,45 @@
+@import '../../../vars';
+
+.main, .black, .white, .red {
+  transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.main {
+  background-color: $mainColor;
+  color: rgb(255, 255, 255);
+
+  &:hover {
+    background-color: $blueHover;
+  }
+}
+
+.white {
+  background-color: $mainWhite;
+  color: $mainBlack;
+  border: 1px solid rgb(207, 217, 222);;
+}
+
+.red {
+  background-color: rgb(244, 33, 46);
+  color: $mainWhite;
+}
+
+.black {
+  background-color: $mainBlack;
+  color: $mainWhite;
+
+  &:hover {
+    background-color: $mainBlack;
+    color: #e5e3e3;
+  }
+}
+
+.default {
+  min-width: 32px;
+  min-height: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 40px;
+  font-weight: 700;
+  transition: opacity .1s ease;
+}

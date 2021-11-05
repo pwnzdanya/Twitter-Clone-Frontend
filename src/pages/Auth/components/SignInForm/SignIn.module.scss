@@ -1,0 +1,32 @@
+@import '../../../../vars';
+
+.list {
+  margin-bottom: 50px;
+}
+
+.item {
+  &:not(:last-child) {
+    margin-bottom: 26px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* РАЗОБРАТЬСЯ С ВЫСОТОЙ*/
+}
+
+.btn {
+  margin-top: auto;
+  width: 100%;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+.passStatus {
+  display: block;
+  padding-left:8px;
+  font-size: 11px;
+  color: $mainColor;
+  cursor: pointer;
+}
